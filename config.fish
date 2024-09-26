@@ -13,6 +13,8 @@ alias so="source"
 alias sql="sqlite3"
 alias v="nvim"
 alias vd="vimdiff"
+alias jv="java"
+alias jvc="javac"
 alias ysp='yabai --stop-service'
 alias yst='yabai --start-service'
 
@@ -33,10 +35,7 @@ export XDG_CONFIG_HOME="/Users/wengtim/.config"
 # Fish greeting
 set fish_greeting
 
-# NVM setup
-set -x NVM_DIR ~/.nvm
-if test -f $NVM_DIR/nvm.sh
-    bass source $NVM_DIR/nvm.sh --no-use
-end
+# NODE setup
+export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
 
-echo "Welcome Back Daddy"
+#NVM setup
