@@ -1,7 +1,9 @@
 # alias
-alias g="git"
 alias c="clear"
 alias e="exit"
+alias g="git"
+alias jv="java"
+alias jvc="javac"
 alias ll="exa -l -g --icons"
 alias lla="exa -al -g --icons"
 alias llt="exa -g --icons --tree --level=2 -a"
@@ -13,8 +15,6 @@ alias so="source"
 alias sql="sqlite3"
 alias v="nvim"
 alias vd="vimdiff"
-alias jv="java"
-alias jvc="javac"
 alias ysp='yabai --stop-service'
 alias yst='yabai --start-service'
 
@@ -34,8 +34,3 @@ export XDG_CONFIG_HOME="/Users/wengtim/.config"
 
 # Fish greeting
 set fish_greeting
-
-# NODE setup
-export PATH="/opt/homebrew/opt/node@20/bin:$PATH"
-
-#NVM setup
