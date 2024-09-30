@@ -10,7 +10,7 @@ alias llt="exa -g --icons --tree --level=2 -a"
 alias mg='mongosh "mongodb+srv://pythonproject.f8iut.mongodb.net/" --apiVersion 1 --username wengtim'
 alias n="node"
 alias p="python3"
-alias sn="fd --hidden --exclude .git --exclude .obsidian | fzf-tmux -p --print0 | xargs -0 nvim"
+alias sn="fd --exclude .git --exclude .obsidian | fzf-tmux -p --print0 | xargs -0 nvim"
 alias so="source"
 alias sql="sqlite3"
 alias v="nvim"
