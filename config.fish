@@ -18,6 +18,19 @@ alias vd="vimdiff"
 alias ysp='yabai --stop-service'
 alias yst='yabai --start-service'
 
+function mvn-build
+   read -P "Project Name: " project_name
+   if test -n "$project_name"
+      mvn archetype:generate \
+      -DgroupId=com.example.project \
+      -DartifactId=$project_name \
+      -DarchetypeArtifactId=maven-archetype-quickstart \
+      -DinteractiveMode=false
+   else
+      echo "Project name cannot be empty."
+   end
+end
+
 
 # Set PATH
 set -gx PATH $HOME/.cargo/bin $PATH
