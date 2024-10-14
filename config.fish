@@ -5,7 +5,7 @@ alias ff="cd \"\$(fd --exclude .git --exclude .obsidian . ~/.config --type f | f
 alias fh="cd \"\$(fd --exclude .git --exclude .obsidian --hidden --no-ignore | fzf-tmux -p | xargs -0 dirname)\""
 alias g="git"
 alias jv="java"
-alias jvc="javac"
+alias jvc="javac -d class *.java"
 alias ll="exa -l -g --icons"
 alias lla="exa -al -g --icons"
 alias llt="exa -g --icons --tree --level=2 -a"
