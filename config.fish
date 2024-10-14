@@ -1,36 +1,24 @@
 # alias
 alias c="clear"
 alias e="exit"
+alias ff="cd \"\$(fd --exclude .git --exclude .obsidian . ~/.config --type f | fzf-tmux -p | xargs -0 dirname)\""
 alias g="git"
-alias ls="exa"
+alias jv="java"
+alias jvc="javac"
 alias ll="exa -l -g --icons"
 alias lla="exa -al -g --icons"
 alias llt="exa -g --icons --tree --level=2 -a"
+alias ls="exa"
 alias mg='mongosh "mongodb+srv://pythonproject.f8iut.mongodb.net/" --apiVersion 1 --username wengtim'
 alias n="node"
 alias p3="python3"
 alias pip="python3 -m pip"
-alias ff="cd \"\$(fd --exclude .git --exclude .obsidian . ~/.config --type f | fzf-tmux -p | xargs -0 dirname)\""
 alias sofish="source ~/.config/fish/config.fish"
 alias sql="sqlite3"
 alias v="nvim"
 alias vd="vimdiff"
 alias ysp='yabai --stop-service'
 alias yst='yabai --start-service'
-
-function mvn-build
-   read -P "Project Name: " project_name
-   if test -n "$project_name"
-      mvn archetype:generate \
-      -DgroupId=com.example.project \
-      -DartifactId=$project_name \
-      -DarchetypeArtifactId=maven-archetype-quickstart \
-      -DinteractiveMode=false
-   else
-      echo "Project name cannot be empty."
-   end
-end
-
 
 # Set PATH
 set -gx PATH $HOME/.cargo/bin $PATH
