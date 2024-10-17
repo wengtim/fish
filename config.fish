@@ -27,6 +27,7 @@ set -gx PATH $HOME/.cargo/bin $PATH
 set -gx PATH /opt/homebrew/bin $PATH
 set -gx PATH /path/to/python3.12/bin $PATH
 set -gx PATH /Users/wengtim/Library/Python/3.12/bin $PATH
+set -gx PATH /Users/wengtim/go/bin $PATH
 
 # Starship prompt
 starship init fish | source
