@@ -28,7 +28,7 @@ set -gx PATH /opt/homebrew/bin $PATH
 set -gx PATH /path/to/python3.12/bin $PATH
 set -gx PATH /Users/wengtim/Library/Python/3.12/bin $PATH
 set -gx PATH /Users/wengtim/go/bin $PATH
-set -gx PATH $PATH ~/.local/share/nvim/mason/bin
+set -gx PATH ~/.local/share/nvim/mason/bin $PATH
 
 # Starship prompt
 starship init fish | source
