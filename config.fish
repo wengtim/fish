@@ -6,7 +6,7 @@ alias fh="cd \"\$(fd --exclude .git --exclude .obsidian --hidden --no-ignore | f
 alias g="git"
 alias jv="java"
 alias jvc="javac -d class/ -cp '.:lib/LGoodDatePicker-11.2.1.jar' Handler/*.java Lecturer/*.java Students/*.java"
-alias jvrun="java -cp '.:lib/LGoodDatePicker-11.2.1.jar:class' Students.Consultation.Booking"
+alias jvrun="java -cp '.:lib/LGoodDatePicker-11.2.1.jar:class' Handler.Main"
 alias ll="exa -l -g --icons"
 alias lla="exa -al -g --icons"
 alias llt="exa -g --icons --tree --level=2 -a"
