@@ -38,5 +38,10 @@ starship init fish | source
 set -g -x NODE_ENV development
 export XDG_CONFIG_HOME="/Users/wengtim/.config"
 
+# Ngrok Shell Completion
+if command -v ngrok &>/dev/null; then
+eval "$(ngrok completion)"
+fi
+
 # Fish greeting
 set fish_greeting
