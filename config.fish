@@ -40,5 +40,8 @@ starship init fish | source
 set -g -x NODE_ENV development
 export XDG_CONFIG_HOME="/Users/wengtim/.config"
 
+# rbenv (for ruby)
+status --is-interactive; and rbenv init - fish | source
+
 # Fish greeting
 set fish_greeting
