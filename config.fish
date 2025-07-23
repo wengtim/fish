@@ -1,5 +1,6 @@
 # alias
 alias c="clear"
+alias charm='open -na "PyCharm" --args'
 alias e="exit"
 alias ff="cd \"\$(fd --exclude .git --exclude .obsidian . ~/.config --type f | fzf-tmux -p | xargs -0 dirname)\""
 alias fh="cd \"\$(fd --exclude .git --exclude .obsidian --hidden --no-ignore | fzf-tmux -p | xargs -0 dirname)\""
