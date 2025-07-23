@@ -17,6 +17,7 @@ alias mg='mongosh "mongodb+srv://pythonproject.f8iut.mongodb.net/" --apiVersion 
 alias n="node"
 alias p3="python3"
 alias pip="pip3"
+alias pycharm="charm"
 alias sofish="source ~/.config/fish/config.fish"
 alias sql="sqlite3"
 alias v="nvim"
