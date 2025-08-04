@@ -30,9 +30,9 @@ alias yst='yabai --start-service'
 set -gx PATH $HOME/.cargo/bin $PATH
 set -gx PATH /opt/homebrew/bin $PATH
 set -gx PATH /path/to/python3.12/bin $PATH
-set -gx PATH /Users/wengtim/Library/Python/3.12/bin $PATH
-set -gx PATH /Users/wengtim/go/bin $PATH
-set -gx PATH ~/.local/share/nvim/mason/bin $PATH
+set -gx PATH $HOME/Library/Python/3.12/bin $PATH
+set -gx PATH $HOME/go/bin $PATH
+set -gx PATH $HOME/.local/share/nvim/mason/bin $PATH
 set -gx PATH /Applications/XAMPP/xamppfiles $PATH
 
 # Starship prompt
@@ -40,7 +40,7 @@ starship init fish | source
 
 # Environment variables
 set -g -x NODE_ENV development
-export XDG_CONFIG_HOME="/Users/wengtim/.config"
+# export XDG_CONFIG_HOME="/Users/$HOME/.config"
 
 # rbenv (for ruby)
 status --is-interactive; and rbenv init - fish | source
