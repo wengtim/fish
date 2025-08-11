@@ -20,6 +20,7 @@ alias p3="python3"
 alias pip="pip3"
 alias sofish="source ~/.config/fish/config.fish"
 alias sql="sqlite3"
+alias ss='screencapture -ci'
 alias v="nvim"
 alias vd="vimdiff"
 alias venv="python3 -m venv venv"
