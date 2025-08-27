@@ -1,6 +1,6 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
-SETUVAR --export --path PKG_CONFIG_PATH:/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig
+SETUVAR --export --path PKG_CONFIG_PATH:/opt/homebrew/opt/glib/lib/pkgconfig\x1e/opt/homebrew/opt/glib/lib/pkgconfig\x1e/opt/homebrew/opt/glib/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/glib/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/glib/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/libheif/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig\x1e/opt/homebrew/opt/mysql\x2dclient/lib/pkgconfig
 SETUVAR ZO_CMD:zo
 SETUVAR Z_CMD:z
 SETUVAR Z_DATA:/Users/wengtim/\x2elocal/share/z/data
