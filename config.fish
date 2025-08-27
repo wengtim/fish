@@ -35,6 +35,8 @@ set -gx PATH /Users/wengtim/Library/Python/3.12/bin $PATH
 set -gx PATH /Users/wengtim/go/bin $PATH
 set -gx PATH ~/.local/share/nvim/mason/bin $PATH
 set -gx PATH /Applications/XAMPP/xamppfiles $PATH
+set -Ux PKG_CONFIG_PATH (brew --prefix mysql-client)/lib/pkgconfig $PKG_CONFIG_PATH
+set -Ux PKG_CONFIG_PATH (brew --prefix libheif)/lib/pkgconfig $PKG_CONFIG_PATH
 
 # Starship prompt
 starship init fish | source
