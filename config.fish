@@ -23,7 +23,7 @@ alias sql="sqlite3"
 alias ss='screencapture -ci'
 alias v="nvim"
 alias vd="vimdiff"
-alias venv="python3 -m venv venv"
+alias venv="python3 -m venv .venv"
 alias ysp='yabai --stop-service'
 alias yst='yabai --start-service'
 
