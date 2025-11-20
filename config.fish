@@ -37,6 +37,11 @@ set -gx PATH ~/.local/share/nvim/mason/bin $PATH
 set -gx PATH /Applications/XAMPP/xamppfiles $PATH
 set -x DYLD_FALLBACK_LIBRARY_PATH /opt/homebrew/opt/glib/lib /opt/homebrew/lib
 
+set -x JAVA_HOME (/usr/libexec/java_home -v 21) # remove after use
+set -x PATH $JAVA_HOME/bin $PATH
+set -Ux ANDROID_HOME $HOME/Library/Android/sdk
+set -Ux PATH $ANDROID_HOME/platform-tools $PATH
+
 # Starship prompt
 starship init fish | source
 
